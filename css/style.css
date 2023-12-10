@@ -1,0 +1,123 @@
+:root {
+    --text-color: #280a50;
+    --background-color: #b4aac8;
+}
+.everything {
+    color: var(--text-color);
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h1 {
+    margin-top: 0px;
+}
+p {
+    margin-bottom: 0px;
+}
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+ol {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+ol li {
+    margin-bottom: 20px;
+}
+ol ul {
+    list-style-type: disc;
+    padding-left: 1em;
+}
+ul li {
+    margin-bottom: 2px;
+}
+p.answer {
+    margin-top: 2px;
+}
+table.links {
+    width: 50%;
+    margin: auto;
+}
+td.links {
+    text-align: center;
+    font-weight: bold;
+    width: 33.333333%;
+    width: calc(100% / 3);
+}
+table.info {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+td.info {
+    border: 2px solid;
+    padding-left: 10px;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--text-color);
+    margin-top: 16px;
+    margin-bottom: 8px;
+    margin-left: -36px;
+    margin-right: -36px;
+}
+.intro {
+    width: 480px;
+    margin: auto;
+}
+.indent {
+    text-indent: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page {
+    display: grid;
+    grid-template-rows: 840px 150px;
+    background-color: var(--background-color);
+    height: 990px;
+    width: 765px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.pg-content {
+    margin-top: 50px;
+    grid-row-start: 1;
+    overflow: hidden;
+}
+.pg-footer {
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    grid-row-start: 2;
+    margin-left: 64px;
+    margin-right: 64px;
+    /* z-index: 10;
+    bottom: 0;
+    position: fixed;
+    width: auto; 
+    Movable, connected to bottom of the screen*/
+}
+.pg-num {
+    margin-top: auto;
+    margin-left: -64px;
+    margin-right: -64px;
+    text-align: center;
+}
+.signature {
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.date {
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
