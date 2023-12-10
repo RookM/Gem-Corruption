@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Aguafina Regular";
+    src: url("../fonts/AguafinaScript-Regular.ttf");
+    /* font source: https://fonts.google.com/specimen/Aguafina+Script/about?query=aguafina */
+}
 :root {
     --text-color: #280a50;
     --background-color: #b4aac8;
@@ -114,7 +119,7 @@ hr {
 .signature {
     text-decoration: underline;
     font-size: 30px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Aguafina Regular, Brush Script MT, Brush Script Std, cursive;
 }
 .date {
     text-decoration: underline;
