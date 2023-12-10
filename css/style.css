@@ -20,6 +20,17 @@
     /* font source: https://www.fontsquirrel.com/fonts/Journal */
 }
 @font-face {
+    font-family: "Theodore Script SP";
+    src: url("../fonts/Scriptina_Pro.otf");
+    /* font source: https://www.fontsquirrel.com/fonts/scriptina-pro */
+}
+@font-face {
+    font-family: "Theodore Handwriting RR";
+    src: url("../fonts/Reey-Regular.otf");
+    size-adjust: 60%;
+    /* font source: https://www.fontsquirrel.com/fonts/reey */
+}
+@font-face {
     font-family: "Ares Handwriting BR";
     src: url("../fonts/Balgruf.otf");
     /* font source: https://www.fontsquirrel.com/fonts/balgruf */
@@ -150,8 +161,8 @@ hr {
     font-family: Myson Handwriting BR, Myson Backup Handwriting JH, Brush Script MT, Brush Script Std, cursive;
 }
 .pearl-signature {
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Theodore Script SP, Brush Script MT, Brush Script Std, cursive;
 }
 .pearl-handwriting {
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-family: Theodore Handwriting RR, Brush Script MT, Brush Script Std, cursive;
 }
