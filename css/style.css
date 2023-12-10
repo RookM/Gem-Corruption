@@ -1,13 +1,30 @@
 @font-face {
-    font-family: "Aguafina Regular";
+    font-family: "Myson Script DDR";
+    src: url("../fonts/Digory_Doodles_PS.ttf");
+    size-adjust: 50%;
+    /* font source: https://www.fontsquirrel.com/fonts/digory-doodles */
+}
+@font-face {
+    font-family: "Myson Handwriting BR";
+    src: url("../fonts/Bilbo-Regular.otf");
+    /* font source: https://www.fontsquirrel.com/fonts/bilbo */
+}
+@font-face {
+    font-family: "Myson Backup Script AR";
     src: url("../fonts/AguafinaScript-Regular.ttf");
     /* font source: https://fonts.google.com/specimen/Aguafina+Script/about?query=aguafina */
 }
 @font-face {
-    font-family: "Journal Handwritten";
+    font-family: "Myson Backup Handwriting JH";
     src: url("../fonts/journal.ttf");
     /* font source: https://www.fontsquirrel.com/fonts/Journal */
 }
+@font-face {
+    font-family: "Ares Handwriting BR";
+    src: url("../fonts/Balgruf.otf");
+    /* font source: https://www.fontsquirrel.com/fonts/balgruf */
+}
+
 :root {
     --text-color: #280a50;
     --background-color: #b4aac8;
@@ -121,13 +138,20 @@ hr {
     margin-right: -64px;
     text-align: center;
 }
-.signature {
+.sign {
     text-decoration: underline;
+    text-decoration-thickness: 2px;
     font-size: 30px;
-    font-family: Aguafina Regular, Brush Script MT, Brush Script Std, cursive;
 }
-.date {
-    text-decoration: underline;
-    font-size: 30px;
-    font-family: Journal Handwritten, Brush Script MT, Brush Script Std, cursive;
+.myson-signature {
+    font-family: Myson Script DDR, Myson Backup Script AR, Brush Script MT, Brush Script Std, cursive;
+}
+.myson-handwriting {
+    font-family: Myson Handwriting BR, Myson Backup Handwriting JH, Brush Script MT, Brush Script Std, cursive;
+}
+.pearl-signature {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.pearl-handwriting {
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
