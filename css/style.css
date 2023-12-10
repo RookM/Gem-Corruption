@@ -73,6 +73,9 @@ ul li {
 p.answer {
     margin-top: 2px;
 }
+p.overflow-text {
+    margin-left: 60px;
+}
 table.links {
     width: 50%;
     margin: auto;
