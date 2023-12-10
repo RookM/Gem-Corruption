@@ -3,6 +3,11 @@
     src: url("../fonts/AguafinaScript-Regular.ttf");
     /* font source: https://fonts.google.com/specimen/Aguafina+Script/about?query=aguafina */
 }
+@font-face {
+    font-family: "Journal Handwritten";
+    src: url("../fonts/journal.ttf");
+    /* font source: https://www.fontsquirrel.com/fonts/Journal */
+}
 :root {
     --text-color: #280a50;
     --background-color: #b4aac8;
@@ -123,6 +128,6 @@ hr {
 }
 .date {
     text-decoration: underline;
-    font-size: 20px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 30px;
+    font-family: Journal Handwritten, Brush Script MT, Brush Script Std, cursive;
 }
